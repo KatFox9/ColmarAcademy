@@ -1,1 +1,13 @@
 /* header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header #company-name {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+}
