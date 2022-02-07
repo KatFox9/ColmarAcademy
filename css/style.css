@@ -2,12 +2,43 @@
 header {
     display: flex;
     justify-content: space-between;
+    height: 64px;
+    align-items: center;
 }
 
 header #company-name {
     display: flex;
+    height: 32px;
+    margin-left: 32px;
+    align-items: center;
+}
+
+header img {
+    height: 48px;
 }
 
 header nav ul {
     display: flex;
+}
+
+#company-name h1{
+    text-transform: uppercase;
+}
+
+#company-name h1 #academy {
+    color: gray;
+}
+
+header nav {
+    margin-right: 24px;
+}
+header nav li {
+    margin-left: 16px;
+    list-style: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
 }
