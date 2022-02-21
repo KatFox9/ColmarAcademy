@@ -1,5 +1,56 @@
 * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
+/* desktop-header */
+.mobile-nav {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.header-logo {
+    display: flex;
+    padding-right: 10px;
+}
+header h1 {
+    height: 32px;
+    padding-top: 5px;
+}
+
+header img {
+    height: 48px;
+}
+
+header h1 #colmar {
+    color: #4D4D4D;
+}
+
+header h1 #academy {
+    color: #9B9B9B;
+    font-weight: lighter;
+}
+
+header .desk-nav {
+    padding-top: 15px;
+}
+
+.desk-nav span {
+    padding-left: 16px;
+}
+
+.desk-nav span a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+/* Mobile Nav */
