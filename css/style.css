@@ -74,3 +74,46 @@ header .desk-nav {
         padding-top: 10px;
     }
 }
+
+/* Info Banner */
+.info-banner {
+    display: flex;
+    background-color: #d8d8d8;
+}
+
+.info-banner img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+}
+
+.banner-text h1 {
+    font-size: 2.25em;
+    padding-bottom: 32px;
+    color: #4d4d4d;
+    line-height: 1.50em;
+}
+
+.banner-text h4 {
+    font-size: 1.25em;
+    padding-bottom: 32px;
+    color: #4D4D4D;
+    line-height: 1.50em;
+}
+
+.banner-text p {
+    text-align: center;
+    padding: 8px 0 8px 0;
+    background: #4d4d4d;
+}
+
+.banner-text p a {
+    color: white;
+    text-decoration: none;
+}
