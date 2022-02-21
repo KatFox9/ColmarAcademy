@@ -54,3 +54,23 @@ header .desk-nav {
 }
 
 /* Mobile Nav */
+@media screen and (max-width: 601px) {
+    .header-logo {
+        display: none;
+    }
+
+    .desk-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mobile-nav span {
+        padding-top: 10px;
+    }
+}
