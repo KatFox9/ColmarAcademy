@@ -76,12 +76,12 @@ header .desk-nav {
 }
 
 /* Info Banner */
-.info-banner {
+.main-banner {
     display: flex;
     background-color: #d8d8d8;
 }
 
-.info-banner img {
+.main-banner img {
     width: 60%;
     padding: 32px 24px;
 }
@@ -122,12 +122,12 @@ header .desk-nav {
 
 /* Mobile banner */
 @media screen and (max-width: 601px) {
-    .info-banner {
+    .main-banner {
         display: flex;
         flex-direction: column;
     }
 
-    .info-banner img {
+    .main-banner img {
         width: 100%;
     }
 
@@ -145,4 +145,92 @@ header .desk-nav {
         padding: 12px 0 12px 0;
         font-size: 1.25em;
     }
+}
+
+/* Desktop Info Banner */
+.mobile-info {
+    display: none;
+}
+
+.info-banner {
+    display: flex;
+}
+
+.main-info {
+    width: 60%;
+    padding: 32px 24px;
+    border-right: 2px solid #d8d8d8;
+}
+
+.main-info img {
+    width: 100%
+}
+
+.main-info h1 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    color: #4D4D4D;
+}
+
+.main-info p, .main-info h5 {
+    color: #4d4d4d;
+}
+
+.main-info h5 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.other-info {
+    width: 40%;
+    padding-top: 32px;
+}
+
+#desk-orien, #desk-campus, #desk-lecture {
+    display: flex;
+    align-items: center;
+}
+
+#desk-orien h2, #desk-campus h2, #desk-lecture h2 {
+    padding-bottom: 10px;
+    color:  #4d4d4d;
+}
+
+#desk-orien p, #desk-campus p, #desk-lecture p {
+    padding-bottom: 10px;
+    color: #4d4d4d;
+}
+
+#desk-orien span a, #desk-campus span a, #desk-lecture span a {
+    color: #3986E0;
+    text-decoration: none;
+}
+
+#desk-orien {
+    border-bottom: 2px dotted #d8d8d8;
+}
+
+#desk-lecture {
+    background-color: #d8d8d8;
+}
+
+#desk-orien img {
+    width: 35%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+#desk-campus img, #desk-lecture img {
+    width: 35%;
+    padding: 16px;
+}
+
+#one {
+    padding-bottom: 16px;
+}
+
+#two, #three {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
