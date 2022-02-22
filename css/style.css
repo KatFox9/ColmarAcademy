@@ -234,3 +234,47 @@ header .desk-nav {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+/* Mobile Info Banner */
+@media screen and (max-width: 601px) {
+    .main-info, .other-info {
+        display: none;
+    }
+
+    .mobile-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mobile-orien, #mobile-campus {
+        padding: 16px;
+    }
+
+    #mobile-lecture {
+        padding: 16px 16px 32px 16px;
+    }
+
+    #mobile-orien img, #mobile-campus img, #mobile-lecture img {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    #mobile-orien h2, #mobile-campus h2, #mobile-lecture h2 {
+        padding-bottom: 10px;
+        padding-left: 16px;
+        color: #4D4D4D;
+    }
+
+    #mobile-orien p, #mobile-campus p, #mobile-lecture p {
+        padding-bottom: 16px;
+        padding-left: 16px;
+        color: #4D4D4D;
+    }
+
+    #mobile-orien span a, #mobile-campus span a, #mobile-lecture span a {
+        color: #3986E0;
+        text-decoration: none;
+        padding-left: 16px;
+        padding-bottom: 16px;
+    }
+}
