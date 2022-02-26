@@ -440,7 +440,7 @@ footer {
     border-top: 2px solid #d8d8d8;
 }
 
-footer p, footer span {
+footer p {
     color: #4D4D4D;
 }
 
@@ -450,4 +450,6 @@ footer p {
 
 footer span a {
     padding-left: 10px;
+    color: #4D4D4D;
+    text-decoration: none;
 }
