@@ -330,6 +330,7 @@ header .desk-nav {
     padding-right: 32px;
 }
 
+/* Mobile Course Banner */
 @media screen and (max-width: 672px) {
     .courses {
         display: none;
@@ -352,4 +353,82 @@ header .desk-nav {
         margin-bottom: 8px;
         color: #4d4d4d;
     }
+}
+
+/* Thesis Banner */
+.thesis-cont {
+    display: flex;
+}
+
+.main-thesis {
+    width: 60%;
+    padding: 32px 24px
+
+}
+
+.thesis-banner h1 {
+    padding-top: 32px;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 2em;
+}
+
+.other-thesis {
+    padding: 32px 0;
+}
+
+.main-thesis video {
+    width: 100%;
+}
+
+.main-thesis h2 {
+    padding-top: 24px;
+    color: #4D4D4D;
+}
+
+.main-thesis p {
+    padding-top: 8px;
+    color: #4D4D4D;
+}
+
+.thesis-text {
+    display: flex;
+}
+
+.thesis-text img {
+    width: 35%;
+    padding: 16px;
+}
+
+.other-thesis div:first-child {
+    background-color:#d8d8d8;
+}
+
+#design, #new-york {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+
+#design h2, #new-york h2 {
+    padding-bottom: 20px;
+}
+
+/* Mobile This Info */
+@media screen and (max-width: 601px) {
+    .other-thesis {
+        display: none;
+    }
+
+    .main-thesis {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-thesis h2, .main-thesis p {
+        display: none;
+    }
+
+    
 }
