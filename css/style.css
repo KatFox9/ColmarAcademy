@@ -338,6 +338,7 @@ header .desk-nav {
 
     .course-banner h1 {
         background-color: white;
+        border-top: 2px solid #d8d8d8;
     }
     
     .mobile-courses {
@@ -429,6 +430,24 @@ header .desk-nav {
     .main-thesis h2, .main-thesis p {
         display: none;
     }
+}
 
-    
+/* Desktop Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 32px 16px;
+    border-top: 2px solid #d8d8d8;
+}
+
+footer p, footer span {
+    color: #4D4D4D;
+}
+
+footer p {
+    padding-right: 10px;
+}
+
+footer span a {
+    padding-left: 10px;
 }
