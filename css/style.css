@@ -324,3 +324,32 @@ header .desk-nav {
     font-weight: 500;
 }
 
+.mobile-courses {
+    display: none;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+@media screen and (max-width: 672px) {
+    .courses {
+        display: none;
+    }
+
+    .course-banner h1 {
+        background-color: white;
+    }
+    
+    .mobile-courses {
+        display: block;
+        padding-top: 16px;
+        padding-bottom: 32px;
+        background-color: white;
+    }
+
+    .mobile-courses h2 {
+        background-color: #d8d8d8;
+        padding: 16px 0 25px 16px;
+        margin-bottom: 8px;
+        color: #4d4d4d;
+    }
+}
